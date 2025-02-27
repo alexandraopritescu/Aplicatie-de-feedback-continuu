@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #d6e9f8, #c8f0ea);
+  color: #333;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  padding: 1rem;
+  position: relative;
+}
+
+.ase-logo {
+  width: 250px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+
+.home-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #2b3e50;
+}
+
+.home-header p {
+  font-size: 1.1rem;
+  margin-bottom: 3rem;
+  max-width: 600px;
+  line-height: 1.5;
+  color: #4a667d;
+}
+
+/* Grup de butoane */
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Butoane stilizate */
+.home-button,
+.home-btn,
+.auth-form button {
+  padding: 1rem 2.5rem;
+  font-size: 1.2rem;
+  color: white;
+  background: linear-gradient(135deg, #56ccf2, #2f80ed);
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.home-button:hover,
+.home-btn:hover,
+.auth-form button:hover {
+  background: linear-gradient(135deg, #2f80ed, #56ccf2);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+.home-footer {
+  position: absolute;
+  bottom: 1rem;
+  width: 100%;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #4a667d;
+}

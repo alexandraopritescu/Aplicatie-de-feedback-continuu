@@ -1,0 +1,80 @@
+/* Containerul principal pentru pagina de activitate student */
+.activitate-student-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 40px;
+  background-color: #f9f1e7; /* Crem deschis pentru fundal */
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+
+/* Butonul de ieșire */
+.exit-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #f5a623; /* Nuanță caldă de galben */
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.exit-button:hover {
+  background-color: #e67e22;
+  transform: scale(1.05);
+}
+
+/* Titlurile din pagina activității */
+h1 {
+  font-size: 2rem;
+  color: #2c3e50; /* Text în gri închis pentru contrast */
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #7f8c8d; /* Gri cald */
+  margin-bottom: 40px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* Cadranele cu emoticoane */
+.reaction-buttons {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Butoanele pentru reacții */
+.reaction-button {
+  font-size: 50px;
+  width: 100px;
+  height: 100px;
+  background-color: #e6e6e6;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.reaction-button:hover {
+  background-color: #d9d9d9;
+  transform: scale(1.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Stiluri pentru butonul de reacție activat */
+.reaction-button:active {
+  background-color: #f39c12;
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}

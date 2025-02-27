@@ -1,0 +1,89 @@
+.activitate-profesor-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  color: #2b3e50;
+  padding: 20px;
+}
+
+.activitate-profesor-content {
+  width: 90%;
+  max-width: 1000px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.home-btn {
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #4caf50, #81c784);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.home-btn:hover {
+  background: linear-gradient(135deg, #81c784, #4caf50);
+  transform: translateY(-2px);
+}
+
+.activitate-profesor-content h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.activitate-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  background: linear-gradient(135deg, #e0f7e9, #cdeedb);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.activitate-details,
+.feedback-section {
+  width: 48%;
+}
+
+.activitate-details h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #2b3e50;
+}
+
+.activitate-details p {
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
+.feedback-section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #2b3e50;
+}
+
+.feedback-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.feedback-section li {
+  font-size: 1rem;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.feedback-section li span {
+  font-weight: bold;
+  color: #4caf50;
+}

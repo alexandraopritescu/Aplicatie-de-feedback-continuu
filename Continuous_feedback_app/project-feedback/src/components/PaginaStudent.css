@@ -1,0 +1,97 @@
+/* Containerul principal pentru pagina studentului */
+.pagina-student-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f9f1e7; /* Ton crem deschis */
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Stiluri pentru header și butonul de logout */
+.header {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.logout-btn {
+  background-color: #f5a623; /* Nuanță caldă, culoare aurie */
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-btn:hover {
+  background-color: #e67e22; /* Nuanta mai închisă pentru hover */
+}
+
+/* Stiluri pentru conținutul principal */
+.content {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #ffffff; /* Alb curat pentru contrast */
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Titlurile din pagina studentului */
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  color: #2c3e50; /* Textul principal într-o nuanță de gri închis */
+}
+
+/* Descrierea introductivă */
+p {
+  font-size: 1.1rem;
+  color: #7f8c8d; /* Gri cald */
+  margin-bottom: 2rem;
+}
+
+/* Containerul de introducere a codului activității */
+.activity-input-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* Input-ul pentru codul activității */
+.activity-input {
+  padding: 1rem;
+  font-size: 1rem;
+  border: 1px solid #e0e0e0; /* Gri deschis pentru input */
+  border-radius: 5px;
+  flex: 1;
+  max-width: 300px;
+  background-color: #f7f4f1; /* Crem deschis pentru fundalul input-ului */
+}
+
+.activity-input:focus {
+  border-color: #f39c12; /* Border color în nuanță de galben-portocaliu */
+}
+
+/* Butonul pentru intrarea la activitate */
+.enter-activity-btn {
+  background-color: #8e44ad; /* Violet cald */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.enter-activity-btn:hover {
+  background-color: #9b59b6; /* Nuanță ușor mai închisă pentru hover */
+}
